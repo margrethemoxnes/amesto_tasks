@@ -94,9 +94,10 @@ namespace Functions
                                 {
                                     OrderId = order.OrderId,
                                     ItemId = order.ItemId,
-                                    Amount = order.Amount,
+                                    Description = order.Description,
+                                    Category = product.Category,
                                     Price = product.Price,
-                                    Description = order.Description
+                                    Amount = order.Amount
                                 });
                             }
                         }

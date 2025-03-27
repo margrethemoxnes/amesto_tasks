@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "amesto2": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7067",
+      "launchBrowser": false
+    }
+  }
+}
